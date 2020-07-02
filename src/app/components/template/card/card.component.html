@@ -1,1 +1,29 @@
-<p>card works!</p>
+<div *ngIf="!products">
+  <app-lazy-loading></app-lazy-loading>
+  <i class="fa fa-refresh fa-spin fa-5x" aria-hidden="true"></i>
+</div>
+<div *ngIf="products" class="container">
+  <div class="row d-flex flex-column justify-content-center align-items-center">
+    <h1 class="col text-center font color-title">{{ title }}</h1>
+    <article class="container w-100">
+      <div
+        class="d-flex flex-wrap justify-content-center justify-lg-content-between"
+      >
+        <div
+          class="mb-3 mr-4 pl-4 pr-sm-3 pl-sm-3"
+          *ngFor="let producto of products"
+        >
+          <div>
+            <p class="mb-0">{{ producto.description }}</p>
+            <p class="card-text text-muted mb-4">
+              <span class="mb-5">
+                <i class="fa fa-search-plus text-dark mr-1"></i>
+                Estilo #{{ producto.id }}
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>

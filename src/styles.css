@@ -1,164 +1,269 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root {
-    --main-font: "Raleway";
-    --alternate-font: sans-serif;
-    --main-color: #4d4d4d;
-    --second-color: #d9d9d9;
-    --second-modal-color: rgba(20, 25, 45, 0.75);
-    --bg-color: rgb(242, 244, 247);
-    --third-color: #615d50;
-    --third-color-hover: #6a8694;
-  
-    --color-blue: #007bff;
-    --color-blue-hover: #0056b3;
-    --font-size: 16px;
-    /*     
+  --main-font: "Raleway";
+  --alternate-font: sans-serif;
+  --main-color: #4d4d4d;
+  --second-color: #d9d9d9;
+  --second-modal-color: rgba(20, 25, 45, 0.75);
+  --bg-color: rgb(242, 244, 247);
+  --third-color: #615d50;
+  --third-color-hover: #6a8694;
+
+  --color-blue: #007bff;
+  --color-blue-hover: #0056b3;
+  --font-size: 16px;
+  /*     
       --logo-width: 4.5rem; */
-    --logo-height: 4rem;
-  
-    --line-height: 1.6;
-    --logo-spacing: 0.2rem;
-    --header-height: 4rem;
-    --footer-heigth: 4rem;
-  }
-  html {
-    font-family: var(--main-font), var(--alternate-font);
-    font-size: var(--font-size);
-    line-height: var(--line-height);
-    color: var(--text-color);
-    /* background-color: var(--bg-color); */
-  }
-  
-  body {
-    font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    background-color: inherit;
-    overflow-x: hidden;
-  }
-  footer {
-    height: var(--footer-heigth);
-  }
-  
-  h2 {
-    font-size: 3rem;
-  }
-  
-  h3 {
-    font-size: 2.5rem;
-  }
-  .navbar-brand img {
-    width: auto;
-    height: var(--logo-height);
-    padding: var(--logo-spacing);
-  }
-  .navbar-toggler {
-    border: 0;
-  }
-  .navbar-toggler:hover,
-  .navbar-toggler:focus {
-    outline: 0;
-  }
-  .navbar-dark .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(97, 93, 8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    transition: all 0.3s ease;
-  }
-  
-  .navbar-dark .navbar-toggler-icon:hover {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(106, 134,148)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  }
-  .navbar-dark .navbar-nav .nav-link {
-    display: block;
-    color: var(--main-color);
-    font-size: 1.15rem;
-    font-weight: bold;
-    transition: all 0.3s ease;
-  }
-  .nav-item:hover {
-    background-color: var(--main-color);
-    transition: all 0.3s ease;
-  }
-  /* .dropdown-toggle {
+  --logo-height: 4rem;
+  --padding-products: 0.5rem;
+  --padding-menu: 4rem;
+  --line-height: 1.6;
+  --logo-spacing: 0.2rem;
+  --header-height: 4rem;
+  --footer-heigth: 4rem;
+}
+html {
+  font-family: var(--main-font), var(--alternate-font);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+  color: var(--text-color);
+  /* background-color: var(--bg-color); */
+}
+
+body {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: inherit;
+  overflow-x: hidden;
+}
+footer {
+  height: var(--footer-heigth);
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+.navbar-brand img {
+  width: auto;
+  height: var(--logo-height);
+  padding: var(--logo-spacing);
+}
+.navbar-toggler {
+  border: 0;
+}
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  outline: 0;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(97, 93, 8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  transition: all 0.3s ease;
+}
+
+.navbar-dark .navbar-toggler-icon:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(106, 134,148)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-dark .navbar-nav .nav-link {
+  display: block;
+  color: var(--main-color);
+  font-size: 1.15rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.nav-item:hover {
+  background-color: var(--main-color);
+  transition: all 0.3s ease;
+}
+/* .dropdown-toggle {
       color: red;
       background-color: #0062cc;
       border-color: #005cbf;
     } */
-  .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 10rem;
-    padding: 0.5rem 0;
-    margin: 0.125rem 0 0;
-    font-size: 1rem;
-    color: var(--main-color);
-    text-align: left;
-    list-style: none;
-    background-color: var(--second-color);
-    background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 0.25rem;
-  }
-  .bg-dark {
-    background-color: var(--second-color) !important;
-  }
-  .bg-success {
-    background-color: var(--third-color-hover) !important;
-  }
-  a.bg-success:hover,
-  a.bg-success:focus,
-  button.bg-success:hover,
-  button.bg-success:focus {
-    background-color: var(--third-color) !important;
-  }
-  .nav-item:hover {
-    background-color: var(--main-color);
-    transition: all 0.3s ease;
-  }
-  .navbar-dark .navbar-nav .nav-link {
-    display: block;
-    height: var(--header-height);
-    color: var(--main-color);
-    font-size: 1.15rem;
-    font-weight: bold;
-    transition: all 0.3s ease;
-    padding-top: 1rem;
-  }
-  .navbar-dark .navbar-nav .nav-link:hover {
-    color: var(--third-color-hover);
-  }
-  /* ********** My Styles ********** */
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: var(--main-color);
+  text-align: left;
+  list-style: none;
+  background-color: var(--second-color);
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+.bg-dark {
+  background-color: var(--second-color) !important;
+}
+.bg-success {
+  background-color: var(--third-color-hover) !important;
+}
+a.bg-success:hover,
+a.bg-success:focus,
+button.bg-success:hover,
+button.bg-success:focus {
+  background-color: var(--third-color) !important;
+}
+.nav-item:hover {
+  background-color: var(--main-color);
+  transition: all 0.3s ease;
+}
+.navbar-dark .navbar-nav .nav-link {
+  display: block;
+  height: var(--header-height);
+  color: var(--main-color);
+  font-size: 1.15rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  padding-top: 1rem;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: var(--third-color-hover);
+}
+/* ********** My Styles ********** */
+.Welcome {
+  min-height: 100vh;
+  /* margin-top: var(--header-height); */
+  padding-top: var(--header-height);
+  margin-top: auto;
+  margin-bottom: 0;
+  background-size: auto;
+  background-color: rgb(108, 130, 145);
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 145, 0, 0.91),
+    rgba(236, 233, 233, 0.301) 75%
+  );
+}
+.Padding-Header {
+  padding-top: var(--header-height);
+}
 
-  
-  /* ********** Media Queries Small ********** */
-  @media (min-width: 576px) {
+.Contact {
+  min-height: calc(100vh - var(--footer-heigth));
+  padding-top: var(--header-height);
+  background-size: auto;
+  background-color: rgb(108, 130, 145);
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 145, 0, 0.91),
+    rgba(248, 183, 4, 0.404) 76%
+  );
+}
+.text-copyright {
+  font-size: 0.75rem;
+  color: var(--main-color);
+  margin-top: 0.5rem;
+}
+.u-fullScreen {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.u-flowText {
+  font-size: 1.25rem;
+}
+.products {
+  /* margin-top:  var(--header-height); */
+  margin-top: var(--header-height);
+}
+.item-product {
+  padding: 0;
+  /*  background-image: url(./assets/images/product-1.jpg);
+    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  height: calc(50vh - (calc(var(--header-height) / 2)));
+  color: white;
+  position: relative;
+}
+.item-product::before {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  content: "";
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+.item-product:hover::before {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 1.25rem;
+}
+.item-product h3,
+p {
+  color: var(--second-modal-color);
+}
+#h3 {
+  opacity: 1;
+}
+.card-img-overlay {
+  padding-left: 1rem;
+}
+.img-welcome {
+  margin-top: auto;
+  /* padding-top: 0.9rem; */
+  margin-bottom: 0;
+  height: 100%;
+  /* height: 95%; */
+}
+.article-img {
+  margin-left: auto;
+  margin-left: 0;
+}
+.article-img img {
+  border: 1px yellow solid;
+}
+.pointer {
+  cursor: pointer;
+}
+.color-title {
+  font-weight: bold;
+  color: var(--main-color);
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ********** Media Queries Small ********** */
+@media (min-width: 576px) {
+}
+
+/* ********** Media Queries Medium ********** */
+@media (min-width: 768px) {
+}
+
+/* ********** Media Queries Large ********** */
+@media (min-width: 992px) {
+  .nav-item:hover {
+    background-color: transparent;
   }
-  
-  /* ********** Media Queries Medium ********** */
-  @media (min-width: 768px) {
+  .u-flowText {
+    font-size: 1.75rem;
   }
-  
-  /* ********** Media Queries Large ********** */
-  @media (min-width: 992px) {
-    .nav-item:hover {
-      background-color: transparent;
-    }
-    .u-flowText {
-      font-size: 1.75rem;
-    }
-    .img-p {
-      padding-top: 4.5rem;
-    }
+  .img-p {
+    padding-top: 4.5rem;
   }
-  
-  /* ********** Media Queries ExtraLarge ********** */
-  @media (min-width: 1200px) {
-    .img-p {
-      padding-top: 0;
-    }
+}
+
+/* ********** Media Queries ExtraLarge ********** */
+@media (min-width: 1200px) {
+  .img-p {
+    padding-top: 0;
   }
-  
+}

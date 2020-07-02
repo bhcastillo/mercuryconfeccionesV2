@@ -1,0 +1,13 @@
+.Products {
+  display: flex;
+  height: calc(100vh);
+}
+
+.Sidebar {
+  padding-top: var(--padding-products);
+}
+.Products-Content {
+  padding-top: var(--padding-products);
+  padding-left: var(--padding-products);
+  flex-grow: 1;
+}

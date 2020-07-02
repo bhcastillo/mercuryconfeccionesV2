@@ -1,0 +1,17 @@
+.Menu {
+  list-style: none;
+  max-width: 25rem;
+  padding-left: 1rem;
+}
+.Menu-Item {
+  padding: 7px;
+  border-bottom: 1.5px solid black;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--main-color);
+  font-size: 1.25rem;
+  max-width: 100px;
+}

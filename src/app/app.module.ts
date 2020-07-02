@@ -11,6 +11,8 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ProductComponent } from './components/product/product.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
+import { LazyLoadingComponent } from './components/template/lazy-loading/lazy-loading.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
     AboutUsComponent,
     ContactComponent,
     ProductComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    SideBarComponent,
+    LazyLoadingComponent
   ],
   imports: [
     BrowserModule,
