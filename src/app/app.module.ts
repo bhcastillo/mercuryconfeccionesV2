@@ -3,10 +3,26 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FooterComponent } from './components/template/footer/footer.component';
+import { NavBarComponent } from './components/template/nav-bar/nav-bar.component';
+import { CardComponent } from './components/template/card/card.component';
+import { ProductsComponent } from './components/products/products.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { ProductComponent } from './components/product/product.component';
+import { WelcomeComponent } from './components/welcome/welcome.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterComponent,
+    NavBarComponent,
+    CardComponent,
+    ProductsComponent,
+    AboutUsComponent,
+    ContactComponent,
+    ProductComponent,
+    WelcomeComponent
   ],
   imports: [
     BrowserModule,
