@@ -1,5 +1,29 @@
 {
-  "data": [
+  "menuSidebar": [
+    {
+      "id": 1,
+      "nombre": "AntiFluido asistencial y servicios"
+    },
+    { "id": 2, "nombre": "Camisas Dama " },
+    {
+      "id": 3,
+      "nombre": "Camisas Caballero "
+    },
+    {
+      "id": 4,
+      "nombre": "Pantalón Unisex"
+    },
+    { "id": 5, "nombre": "Línea Unisex" },
+    {
+      "id": 6,
+      "nombre": "Línea Colegial"
+    },
+    {
+      "id": 7,
+      "nombre": "Línea Corporativa"
+    }
+  ],
+  "dataDefault": [
     { "id": "1", "description": "1ass", "price": 65000, "url": "ua101" },
     { "id": "2", "description": "as2s", "price": 65000, "url": "ua101" },
     { "id": "3", "description": "a3ss", "price": 65000, "url": "ua101" },
@@ -7,15 +31,55 @@
     { "id": "5", "description": "ass", "price": 65000, "url": "ua101" },
     { "id": "6", "description": "ass", "price": 65000, "url": "ua101" }
   ],
-  "data2": [
-    { "id": "1", "description": "ccccccc", "price": 50000, "url": "a102" },
-    { "id": "2", "description": "ccccccc", "price": 50000, "url": "a102" },
-    { "id": "3", "description": "ccccccc", "price": 50000, "url": "a102" },
-    { "id": "4", "description": "ccccccc", "price": 50000, "url": "a102" },
-    { "id": "5", "description": "ccccccc", "price": 50000, "url": "a102" },
-    { "id": "6", "description": "ccccccc", "price": 50000, "url": "a102" }
+  "antifluidoAyS": [
+    { "id": "1", "description": "1ass", "price": 65000, "url": "ua101" },
+    { "id": "2", "description": "as2s", "price": 65000, "url": "ua101" },
+    { "id": "3", "description": "a3ss", "price": 65000, "url": "ua101" },
+    { "id": "4", "description": "aqqss", "price": 65000, "url": "ua101" },
+    { "id": "5", "description": "ass", "price": 65000, "url": "ua101" },
+    { "id": "6", "description": "ass", "price": 65000, "url": "ua101" }
   ],
-  "data3": [
+  "camisasDama": [
+    { "id": "1", "description": "ccccccc", "price": 50000, "url": "ua101" },
+    { "id": "2", "description": "ccccccc", "price": 50000, "url": "ua101" },
+    { "id": "3", "description": "ccccccc", "price": 50000, "url": "ua101" },
+    { "id": "4", "description": "ccccccc", "price": 50000, "url": "ua101" },
+    { "id": "5", "description": "ccccccc", "price": 50000, "url": "ua101" },
+    { "id": "6", "description": "ccccccc", "price": 50000, "url": "ua101" }
+  ],
+  "camisasCaballero": [
+    { "id": "1", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "2", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "3", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "4", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "5", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "6", "description": "ass", "price": 122, "url": "a102" }
+  ],
+  "pantalonUnisex": [
+    { "id": "1", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "2", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "3", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "4", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "5", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "6", "description": "ass", "price": 122, "url": "a102" }
+  ],
+  "lineaUnisex": [
+    { "id": "1", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "2", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "3", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "4", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "5", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "6", "description": "ass", "price": 122, "url": "a102" }
+  ],
+  "lineaColegial": [
+    { "id": "1", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "2", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "3", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "4", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "5", "description": "ass", "price": 12, "url": "a102" },
+    { "id": "6", "description": "ass", "price": 122, "url": "a102" }
+  ],
+  "lineaCorporativa": [
     { "id": "1", "description": "ass", "price": 12, "url": "a102" },
     { "id": "2", "description": "ass", "price": 12, "url": "a102" },
     { "id": "3", "description": "ass", "price": 12, "url": "a102" },

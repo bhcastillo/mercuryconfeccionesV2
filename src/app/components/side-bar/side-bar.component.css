@@ -1,18 +1,23 @@
 .Menu {
   list-style: none;
-  max-width: 25rem;
+  width: 20rem;
   padding-left: 1rem;
+  padding-top: 1rem;
 }
 .Menu-Item {
   padding: 7px;
-  border-bottom: 1.5px solid black;
+  border-bottom: 1.5px solid var(--second-color);
 }
 a {
   text-decoration: none;
+  color: var(--main-color);
 }
 a:hover {
-  color: var(--main-color);
-  font-size: 1.25rem;
+  color: var(--third-color-hover);
+  font-size: 1.15rem;
   max-width: 100px;
   cursor: pointer;
+}
+h2 {
+  font-size: 1.5rem;
 }

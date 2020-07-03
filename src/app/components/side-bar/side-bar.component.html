@@ -1,14 +1,10 @@
 <ul class="Menu">
-  <p>Categorias</p>
-  <li class="Menu-Item">
-    <a (click)="this.productsService.getdata1()"
-      >AntiFluido asistencial y servicios
-    </a>
-  </li>
-  <li class="Menu-Item">
-    <a (click)="this.productsService.getdata()">Moda Unisex</a>
-  </li>
-  <li class="Menu-Item">
-    <a (click)="this.productsService.getdata1()">Moda Caballero camisas</a>
+  <h2>Categorias</h2>
+  <li
+    class="Menu-Item"
+    *ngFor="let menuItem of this.productsService.getDataSidebar()"
+    (click)="this.productsService.onClickItemMenu(menuItem.id, menuItem.nombre)"
+  >
+    <a> {{ menuItem.nombre }} </a>
   </li>
 </ul>
