@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +14,7 @@ import { ProductComponent } from './components/product/product.component';
 import { WelcomeComponent } from './components/welcome/welcome.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { LazyLoadingComponent } from './components/template/lazy-loading/lazy-loading.component';
+import { UrlImagePipe } from './pipes/url-image.pipe';
 
 @NgModule({
   declarations: [
@@ -26,13 +28,11 @@ import { LazyLoadingComponent } from './components/template/lazy-loading/lazy-lo
     ProductComponent,
     WelcomeComponent,
     SideBarComponent,
-    LazyLoadingComponent
+    LazyLoadingComponent,
+    UrlImagePipe,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

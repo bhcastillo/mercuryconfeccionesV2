@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Product } from '../../models/product';
+import { ProductsService } from '../../services/products.service';
 
 @Component({
   selector: 'app-products',
@@ -8,16 +9,10 @@ import { Product } from '../../models/product';
 })
 export class ProductsComponent implements OnInit {
   title = 'Nuestros productos';
-  products: Product[] = [
-    { id: '1', description: 'dd', price: 12 },
-    { id: '1', description: 'dd', price: 12 },
-    { id: '1', description: 'dd', price: 12 },
-    { id: '1', description: 'dd', price: 12 },
-    { id: '1', description: 'dd', price: 12 },
-    { id: '1', description: 'dd', price: 12 },
-    { id: '1', description: 'dd', price: 12 },
-  ];
-  constructor() {}
+
+  constructor(public productsService: ProductsService) {
+    this.productsService.getdata();
+  }
 
   ngOnInit(): void {}
 }

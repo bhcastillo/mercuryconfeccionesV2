@@ -7,8 +7,9 @@ import { Product } from '../../../models/product';
   styleUrls: ['./card.component.css'],
 })
 export class CardComponent implements OnInit {
+  anchoImagen = '190px';
+  altoImagen = '234px';
   @Input() products: Product[];
-
   @Input() title: string;
   constructor() {
     this.products = [];

@@ -11,14 +11,21 @@
       >
         <div
           class="mb-3 mr-4 pl-4 pr-sm-3 pl-sm-3"
-          *ngFor="let producto of products"
+          *ngFor="let product of products"
         >
           <div>
-            <p class="mb-0">{{ producto.description }}</p>
+            <img
+              class="mb-3 pointer"
+              [src]="product.url | urlImage"
+              [style.width]="anchoImagen"
+              [style.height]="altoImagen"
+              [title]="product.description"
+            />
+
+            <p class="mb-0">{{ product.description }}</p>
             <p class="card-text text-muted mb-4">
               <span class="mb-5">
-                <i class="fa fa-search-plus text-dark mr-1"></i>
-                Estilo #{{ producto.id }}
+                <p>{{ product.price | currency: "COP":"symbol":"5.0-0" }}</p>
               </span>
             </p>
           </div>
