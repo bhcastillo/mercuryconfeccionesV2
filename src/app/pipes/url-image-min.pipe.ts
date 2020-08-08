@@ -1,9 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'urlImage',
+  name: 'urlImageMin',
 })
-export class UrlImagePipe implements PipeTransform {
+export class UrlImageMinPipe implements PipeTransform {
   transform(url: string): string {
     const URL_IMAGE = '../../../../assets/images';
     const folder: string = url.substring(0, 2);
@@ -13,7 +13,7 @@ export class UrlImagePipe implements PipeTransform {
       return `${URL_IMAGE}/${folder}/${url}/min-${url}.jpg`;
     } else {
       const folderImages: string = url.substring(0, 5);
-      return `${URL_IMAGE}/${folder}/${folderImages}/${url}.jpg`;
+      return `${URL_IMAGE}/${folder}/${folderImages}/min-${url}.jpg`;
     }
   }
 }

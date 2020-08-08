@@ -1,0 +1,38 @@
+.Product {
+  display: flex;
+  height: calc(100vh - var(--padding-header));
+
+  justify-content: center;
+  align-content: center;
+}
+.description {
+  max-width: 12rem;
+}
+.slides {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.thumbnail {
+  width: 78px;
+}
+ul {
+  list-style: none;
+}
+.slide-item {
+  cursor: pointer;
+}
+.center-item {
+  display: flex;
+  justify-content: center;
+}
+.img-foto {
+  display: flex;
+  min-height: 360px;
+  min-width: 200px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}

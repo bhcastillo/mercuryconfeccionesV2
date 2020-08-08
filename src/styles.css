@@ -171,7 +171,9 @@ button.bg-success:focus {
   width: 100%;
   min-height: 100vh;
 }
-
+.title{
+  font-size: 1.25rem;
+}
 .u-flowText {
   font-size: 1.25rem;
 }

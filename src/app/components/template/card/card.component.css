@@ -1,0 +1,6 @@
+.card-item{
+    cursor: pointer;
+}
+.card-item:hover{
+    border: 1px solid var(--color-blue);
+}

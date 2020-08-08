@@ -14,15 +14,17 @@
           *ngFor="let product of products"
         >
           <div>
+            
             <img
-              class="mb-3 pointer"
+              class="mb-3 card-item"
               [src]="product.url | urlImage"
               [style.width]="anchoImagen"
               [style.height]="altoImagen"
-              [title]="product.description"
+              [title]="product.title"
+              (click)="onClickItem(product.url)"
             />
 
-            <p class="mb-0">{{ product.description }}</p>
+            <p class="mb-0">{{ product.title}} </p>
             <p class="card-text text-muted mb-4">
               <span class="mb-5">
                 <p>{{ product.price | currency: "COP":"symbol":"5.0-0" }}</p>
