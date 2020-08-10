@@ -12,3 +12,8 @@
 
   flex-grow: 1;
 }
+.scroll {
+  width: 900px;
+  height: 540px;
+  overflow-y: scroll;
+}

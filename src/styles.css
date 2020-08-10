@@ -242,7 +242,6 @@ p {
   height: auto;
 }
 
-
 /* ********** Media Queries Small ********** */
 @media (min-width: 576px) {
 }
@@ -269,4 +268,12 @@ p {
   .img-p {
     padding-top: 0;
   }
+}
+.scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  background: var(--third-color-hover);
+  border-radius: 6px;
+  border-right: 2px solid #fff;
 }

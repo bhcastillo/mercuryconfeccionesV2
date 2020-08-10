@@ -1,9 +1,6 @@
-<div class="Padding-Header Products">
+<div class="Padding-Header Products ">
   <app-side-bar class="Sidebar"></app-side-bar>
-  <section class="Products-Content mb-5">
-    <app-card
-      [products]="this.productsService.products"
-      [title]="this.productsService.title"
-    ></app-card>
+  <section class="Products-Content mb-5 scroll">
+    <app-card [products]="this.productsService.products" [title]="this.productsService.title"></app-card>
   </section>
 </div>

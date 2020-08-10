@@ -16,6 +16,7 @@ ul {
 }
 .slide-item {
   cursor: pointer;
+  transition: all, 5s ease-out;
 }
 .center-item {
   display: flex;
@@ -29,6 +30,7 @@ ul {
   justify-content: center;
   align-items: center;
 }
+
 /* ********** Media Queries Small ********** */
 @media (min-width: 300px) {
   .Product {

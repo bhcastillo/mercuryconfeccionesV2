@@ -26,7 +26,7 @@
       "id": "1",
       "title": "Conjunto Valentina",
       "description": "Elaborado en antifluido Lafayette, cortes en triángulo a la altura de pecho y cintura. Colores en contraste.",
-      "price": 500000,
+      "price": 50000,
       "url": "lh101",
       "focused": ["lh101", "lh101a"]
     },
@@ -34,7 +34,7 @@
       "id": "2",
       "title": "Conjunto Gina",
       "description": "Material Lafayette. Blisa. Corte horizontal sobre pecho con cuello redondo y abertura , doble bolsillo. Pantalón bota recta y bolsillo sobrepuesto.",
-      "price": 500000,
+      "price": 50000,
       "url": "lh102",
       "focused": []
     },
@@ -42,7 +42,7 @@
       "id": "3",
       "title": "Conjunto Rosado Samara",
       "description": "Material antifluido. Doble corte en pecho cuello en V cruzado. Colores en contraste.",
-      "price": 500000,
+      "price": 50000,
       "url": "lh103",
       "focused": []
     },
@@ -50,7 +50,7 @@
       "id": "4",
       "title": "Conjunto Paty",
       "description": "Blusa corte cruzado, cuello V con embone en bolsillos.",
-      "price": 500000,
+      "price": 50000,
       "url": "lh104",
       "focused": []
     },
@@ -58,7 +58,7 @@
       "id": "5",
       "title": "Conjunto Zoila",
       "description": "Cuello V. Sobre puesto con corte en cintura, pinzas en espalda y delantero para resaltar la figura.",
-      "price": 500000,
+      "price": 50000,
       "url": "lh105",
       "focused": []
     },
@@ -66,7 +66,7 @@
       "id": "6",
       "title": "Conjunto Salomé",
       "description": "Elaborado en antifluido Lotus cuello V cruzado corte y sobrepuesto horizontal en pecho.",
-      "price": 500000,
+      "price": 50000,
       "url": "lh106",
       "focused": []
     },
@@ -74,7 +74,7 @@
       "id": "7",
       "title": "Conjunto Sofi",
       "description": "Antifluido Lotus, color lila, corte en pecho, cuello redondo abierto, tres bolsillos con doble pespunte azul oscuro en cortes.",
-      "price": 500000,
+      "price": 50000,
       "url": "lh107",
       "focused": []
     },
@@ -82,7 +82,7 @@
       "id": "8",
       "title": "Conjunto Margarita",
       "description": "Antifluido universal, cuello cruzado con vivos contraste, bolsillos laterales.",
-      "price": 500000,
+      "price": 50000,
       "url": "lh108",
       "focused": []
     }
@@ -92,7 +92,7 @@
       "id": "1",
       "title": "Blusa Rocio",
       "description": "Cuello redondo con abertura. Embone de color en bolsillos y cuello.",
-      "price": 500000,
+      "price": 50000,
       "url": "bl101",
       "focused": ["bl101a"]
     },
@@ -100,7 +100,7 @@
       "id": "2",
       "title": "Blusa Kandy",
       "description": "Corte y cuello redondo con abertura. Pespunte a 2 cm del borde doble bolsillo.",
-      "price": 500000,
+      "price": 50000,
       "url": "bl102",
       "focused": ["bl102a"]
     },
@@ -108,7 +108,7 @@
       "id": "3",
       "title": "Blusa Moni",
       "description": "Corte diagonal de hombro a cintura con estampados vivos en contraste. Cuello V.",
-      "price": 500000,
+      "price": 50000,
       "url": "bl103",
       "focused": ["bl102a"]
     }
@@ -118,7 +118,7 @@
       "id": "1",
       "title": "Pantalón Dalia",
       "description": "Bolsillos sobre puestos y camuflado pespunte bicolor cintura lisa con cordón y caucho en parte posterior.",
-      "price": 500000,
+      "price": 50000,
       "url": "pa101",
       "focused": ["bl102a"]
     }

@@ -1,6 +1,7 @@
-.card-item{
-    cursor: pointer;
+.card-item {
+  cursor: pointer;
+  transition: ease-in all 0.3s;
 }
-.card-item:hover{
-    border: 1px solid var(--color-blue);
+.card-item:hover {
+  box-shadow: 10px 10px 8px -5px rgba(0, 0, 0, 0.75);
 }
