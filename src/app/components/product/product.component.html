@@ -6,21 +6,17 @@
           [fullImage]="urlImage | urlImage">
         </lib-ngx-image-zoom>
       </div>
-      <div class="center-item">
-
-        <i class="fas fa-search-plus text-muted   ">Zoom </i>
-
+      <div class="center-item mt-1">
+        <i class="fas fa-search-plus text-muted">Zoom </i>
       </div>
-      <ul class="slides " *ngIf="product.focused">
-
-        <li class="slide-item" *ngFor="let imageFocused of product.focused">
-
+      <ul class="slides " *ngIf="imagesFocused">
+        <li class="slide-item" *ngFor="let imageFocused of imagesFocused ">
           <img (mouseenter)="onClickChangeImage(imageFocused)" [src]="imageFocused | urlImageMin" [alt]="product.title"
             class="thumbnail" />
         </li>
       </ul>
     </div>
-    <div class="ml-2 mt-4">
+    <div class="ml-2 mt-4 ">
       <h1 class="title">{{ product.title }}</h1>
       <p class="text-muted">
         {{ product.price | currency: "COP":"symbol":"5.0-0" }}

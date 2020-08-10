@@ -4,5 +4,5 @@ export interface Product {
   description: string;
   price: number;
   url: string;
-  focused?: object;
+  focused: object;
 }

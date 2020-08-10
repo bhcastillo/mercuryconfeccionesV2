@@ -14,11 +14,10 @@ import { pantalones } from '../../data.json';
 })
 export class ProductsService {
   products: Product[] = [];
-  product:Product[]=[];
+  product: Product[] = [];
   title = '';
   constructor() {
     this.getdata();
-    
   }
 
   getDataSidebar(): MenuSidebar[] {
@@ -46,17 +45,16 @@ export class ProductsService {
     this.title = 'Nuestros Productos';
     this.products = lineaHospitalaria;
   }
-    getProduct(id:string):Product{
-    let typeItem= id.substr(0,2)
-  
-    switch (typeItem){
+  getProduct(id: string): Product {
+    let typeItem = id.substr(0, 2);
+
+    switch (typeItem) {
       case 'lh':
-        this.product =  lineaHospitalaria.filter((element)=>{
-            return element.url === id;
-          })
+        this.product = lineaHospitalaria.filter((element) => {
+          return element.url === id;
+        });
         break;
     }
-    console.log("pro",this.product[0])
-    return this.product[0]
+    return this.product[0];
   }
 }

@@ -9,8 +9,7 @@ export class UrlImagePipe implements PipeTransform {
     const folder: string = url.substring(0, 2);
     const isFocused: string = url.charAt(url.length - 1);
     if (!isNaN(parseFloat(isFocused))) {
-      console.log('es no numero');
-      return `${URL_IMAGE}/${folder}/${url}/min-${url}.jpg`;
+      return `${URL_IMAGE}/${folder}/${url}/${url}.jpg`;
     } else {
       const folderImages: string = url.substring(0, 5);
       return `${URL_IMAGE}/${folder}/${folderImages}/${url}.jpg`;

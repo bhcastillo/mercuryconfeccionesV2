@@ -35,49 +35,56 @@
       "title": "Conjunto Gina",
       "description": "Material Lafayette. Blisa. Corte horizontal sobre pecho con cuello redondo y abertura , doble bolsillo. Pantalón bota recta y bolsillo sobrepuesto.",
       "price": 500000,
-      "url": "lh102"
+      "url": "lh102",
+      "focused": []
     },
     {
       "id": "3",
       "title": "Conjunto Rosado Samara",
       "description": "Material antifluido. Doble corte en pecho cuello en V cruzado. Colores en contraste.",
       "price": 500000,
-      "url": "lh103"
+      "url": "lh103",
+      "focused": []
     },
     {
       "id": "4",
       "title": "Conjunto Paty",
       "description": "Blusa corte cruzado, cuello V con embone en bolsillos.",
       "price": 500000,
-      "url": "lh104"
+      "url": "lh104",
+      "focused": []
     },
     {
       "id": "5",
       "title": "Conjunto Zoila",
       "description": "Cuello V. Sobre puesto con corte en cintura, pinzas en espalda y delantero para resaltar la figura.",
       "price": 500000,
-      "url": "lh105"
+      "url": "lh105",
+      "focused": []
     },
     {
       "id": "6",
       "title": "Conjunto Salomé",
       "description": "Elaborado en antifluido Lotus cuello V cruzado corte y sobrepuesto horizontal en pecho.",
       "price": 500000,
-      "url": "lh106"
+      "url": "lh106",
+      "focused": []
     },
     {
       "id": "7",
       "title": "Conjunto Sofi",
       "description": "Antifluido Lotus, color lila, corte en pecho, cuello redondo abierto, tres bolsillos con doble pespunte azul oscuro en cortes.",
       "price": 500000,
-      "url": "lh107"
+      "url": "lh107",
+      "focused": []
     },
     {
       "id": "8",
       "title": "Conjunto Margarita",
       "description": "Antifluido universal, cuello cruzado con vivos contraste, bolsillos laterales.",
       "price": 500000,
-      "url": "lh108"
+      "url": "lh108",
+      "focused": []
     }
   ],
   "blusas": [
