@@ -36,7 +36,7 @@
       "description": "Material Lafayette. Blisa. Corte horizontal sobre pecho con cuello redondo y abertura , doble bolsillo. Pantalón bota recta y bolsillo sobrepuesto.",
       "price": 50000,
       "url": "lh102",
-      "focused": []
+      "focused": ["lh102", "lh102a"]
     },
     {
       "id": "3",
@@ -44,7 +44,7 @@
       "description": "Material antifluido. Doble corte en pecho cuello en V cruzado. Colores en contraste.",
       "price": 50000,
       "url": "lh103",
-      "focused": []
+      "focused": ["lh103"]
     },
     {
       "id": "4",
@@ -52,7 +52,7 @@
       "description": "Blusa corte cruzado, cuello V con embone en bolsillos.",
       "price": 50000,
       "url": "lh104",
-      "focused": []
+      "focused": ["lh104", "lh104a"]
     },
     {
       "id": "5",
@@ -60,7 +60,7 @@
       "description": "Cuello V. Sobre puesto con corte en cintura, pinzas en espalda y delantero para resaltar la figura.",
       "price": 50000,
       "url": "lh105",
-      "focused": []
+      "focused": ["lh105", "lh105a"]
     },
     {
       "id": "6",
@@ -68,7 +68,7 @@
       "description": "Elaborado en antifluido Lotus cuello V cruzado corte y sobrepuesto horizontal en pecho.",
       "price": 50000,
       "url": "lh106",
-      "focused": []
+      "focused": ["lh106", "lh106a"]
     },
     {
       "id": "7",
@@ -76,7 +76,7 @@
       "description": "Antifluido Lotus, color lila, corte en pecho, cuello redondo abierto, tres bolsillos con doble pespunte azul oscuro en cortes.",
       "price": 50000,
       "url": "lh107",
-      "focused": []
+      "focused": ["lh107", "lh107a"]
     },
     {
       "id": "8",
@@ -84,7 +84,7 @@
       "description": "Antifluido universal, cuello cruzado con vivos contraste, bolsillos laterales.",
       "price": 50000,
       "url": "lh108",
-      "focused": []
+      "focused": ["lh108", "lh108a"]
     }
   ],
   "blusas": [
@@ -94,7 +94,7 @@
       "description": "Cuello redondo con abertura. Embone de color en bolsillos y cuello.",
       "price": 50000,
       "url": "bl101",
-      "focused": ["bl101a"]
+      "focused": ["bl101", "bl101a"]
     },
     {
       "id": "2",
@@ -102,7 +102,7 @@
       "description": "Corte y cuello redondo con abertura. Pespunte a 2 cm del borde doble bolsillo.",
       "price": 50000,
       "url": "bl102",
-      "focused": ["bl102a"]
+      "focused": ["bl102", "bl102a"]
     },
     {
       "id": "3",
@@ -110,7 +110,7 @@
       "description": "Corte diagonal de hombro a cintura con estampados vivos en contraste. Cuello V.",
       "price": 50000,
       "url": "bl103",
-      "focused": ["bl102a"]
+      "focused": ["bl103", "bl103a"]
     }
   ],
   "pantalones": [
@@ -120,7 +120,7 @@
       "description": "Bolsillos sobre puestos y camuflado pespunte bicolor cintura lisa con cordón y caucho en parte posterior.",
       "price": 50000,
       "url": "pa101",
-      "focused": ["bl102a"]
+      "focused": ["pa101"]
     }
   ]
 }

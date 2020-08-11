@@ -74,6 +74,16 @@ export class ProductsService {
           return element.url === id;
         });
         break;
+      case 'bl':
+        this.product = blusas.filter((element) => {
+          return element.url === id;
+        });
+        break;
+      case 'pa':
+        this.product = pantalones.filter((element) => {
+          return element.url === id;
+        });
+        break;
     }
     return this.product[0];
   }
