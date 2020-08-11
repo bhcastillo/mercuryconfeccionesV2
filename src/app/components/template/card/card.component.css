@@ -5,3 +5,6 @@
 .card-item:hover {
   box-shadow: 10px 10px 8px -5px rgba(0, 0, 0, 0.75);
 }
+.title {
+  font-size: 1.7rem;
+}

@@ -132,6 +132,13 @@ button.bg-success:focus {
 .navbar-dark .navbar-nav .nav-link:hover {
   color: var(--third-color-hover);
 }
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: var(--second-color);
+}
+
 /* ********** My Styles ********** */
 .Welcome {
   min-height: 100vh;
@@ -249,7 +256,11 @@ p {
 /* ********** Media Queries Medium ********** */
 @media (min-width: 768px) {
 }
-
+@media (max-width: 607px) {
+  .Menu {
+    display: none;
+  }
+}
 /* ********** Media Queries Large ********** */
 @media (min-width: 992px) {
   .nav-item:hover {

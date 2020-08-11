@@ -8,6 +8,7 @@ import { dataDefault } from '../../data.json';
 import { lineaHospitalaria } from '../../data.json';
 import { blusas } from '../../data.json';
 import { pantalones } from '../../data.json';
+import { Router } from '@angular/router';
 
 @Injectable({
   providedIn: 'root',
@@ -15,8 +16,9 @@ import { pantalones } from '../../data.json';
 export class ProductsService {
   products: Product[] = [];
   product: Product[] = [];
+  firstClickSidebar: boolean = false;
   title = '';
-  constructor() {
+  constructor(private router: Router) {
     this.getdata();
   }
 
@@ -24,25 +26,43 @@ export class ProductsService {
     return menuSidebar;
   }
   onClickItemMenu(id: number, nombre: string): void {
+    console.log('sidebar');
+    this.firstClickSidebar = true;
     switch (id) {
       case 1:
-        this.title = nombre;
-        this.products = lineaHospitalaria;
+        this.onClickLineaHospitalaria(nombre);
+        this.router.navigate(['/productos']);
+
         break;
       case 2:
-        this.title = nombre;
-        this.products = blusas;
+        this.onClickBlusas(nombre);
+        this.router.navigate(['/productos']);
+
         break;
       case 3:
-        this.title = nombre;
-        this.products = pantalones;
+        this.onClickPantalones(nombre);
+        this.router.navigate(['/productos']);
+
         break;
       default:
         return;
     }
   }
+  onClickLineaHospitalaria(nombre: string) {
+    this.title = nombre;
+    this.products = lineaHospitalaria;
+  }
+  onClickBlusas(nombre: string) {
+    this.title = nombre;
+    this.products = blusas;
+  }
+  onClickPantalones(nombre: string) {
+    this.title = nombre;
+    this.products = pantalones;
+  }
+
   getdata(): void {
-    this.title = 'Nuestros Productos';
+    this.title = 'Linea Hospitalaria';
     this.products = lineaHospitalaria;
   }
   getProduct(id: string): Product {
